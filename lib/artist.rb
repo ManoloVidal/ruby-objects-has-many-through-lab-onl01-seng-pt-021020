@@ -19,11 +19,11 @@ end
   #  self.songs.last
  # end
 
-#def self.songs 
-#  Song.all.select do |song|
- #   song.artist == self 
- # end 
-#end 
+def self.songs 
+  Song.all.select do |song|
+    song.artist == self 
+  end 
+end 
 
 #def genres
  #   Song.all.map do |song|
