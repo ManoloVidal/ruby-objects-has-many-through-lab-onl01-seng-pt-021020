@@ -19,7 +19,7 @@ end
   #  self.songs.last
  # end
 
-def self.songs 
+def songs 
   Song.all.select do |song|
     song.artist == self 
   end 
