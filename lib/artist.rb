@@ -1,7 +1,7 @@
 class Artist 
   @@all = [] 
   
-  attr_accessor :name, :genre 
+  attr_reader :name, :genre 
 
 
 
